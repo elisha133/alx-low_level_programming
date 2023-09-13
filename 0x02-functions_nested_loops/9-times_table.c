@@ -19,7 +19,7 @@ void times_table(void)
 			rem = mul % 10;
 			if (div > 0)
 				_putchar(div + '0');
-			else
+			else if (i != 0 && div < 0)
 				_putchar(32);
 
 			_putchar(rem + '0');
