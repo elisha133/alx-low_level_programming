@@ -6,13 +6,13 @@
   *
   * Return: The length of s (Success).
   */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int i;
 
 	i = 0;
-	while (*(s + i) != '\n')
-		i++;
+	while (*(s + i) != '\0')
+		i = i + 1;
 
 	return (i);
 }
