@@ -4,7 +4,7 @@
   * _strncpy - Copy a string
   * @dest: The first string
   * @src: The second string
-  * @n: Number of charavters to copy
+  * @n: The number of charavters to copy
   *
   * Return: Pointer to dest.
   */
